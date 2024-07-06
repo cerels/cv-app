@@ -1,0 +1,30 @@
+#general {
+    display: flex;
+    justify-content: center; /* Center elements horizontally */
+    flex-direction: column;
+  }
+  
+  .general-container h1 {
+    margin-right: 10px; /* Add space between title and button */
+  }
+    
+  p {
+    display: inline-block; /* Make paragraphs act like inline elements */
+    margin-right: 20px; /* Add space between paragraphs */
+  }
+  
+  form {
+    display: block; /* Make form a block element on a new line */
+    margin-top: 20px; /* Add space between title section and form */
+  }
+
+   #header{
+    display: flex;
+    flex-direction: row;
+   }
+
+   #genInfo {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+   }

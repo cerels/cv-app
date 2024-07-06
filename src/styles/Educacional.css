@@ -1,0 +1,51 @@
+#edu {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center; /* Center elements horizontally */
+    flex-direction: column;
+  }
+  
+ 
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+  }
+  
+  li p {
+    margin: 0;
+  }
+  
+  li p:first-child {
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  
+  li p:nth-child(2) {
+    flex-grow: 1;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  form input {
+    margin-bottom: 10px;
+  }
+  
+  form button {
+    margin-right: 10px;
+  }
+  
